@@ -222,7 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/bin/wigignpt:$(TARGET_COPY_OUT_VENDOR)/bin/wigignpt \
     vendor/realme/realme_trinket/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/realme/realme_trinket/proprietary/vendor/etc/DxHDCP.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/DxHDCP.cfg \
-    vendor/realme/realme_trinket/proprietary/vendor/etc/SVIConfig_19631.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig_19631.xml \
     vendor/realme/realme_trinket/proprietary/vendor/etc/acdbdata/19631/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19631/Bluetooth_cal.acdb \
     vendor/realme/realme_trinket/proprietary/vendor/etc/acdbdata/19631/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19631/Codec_cal.acdb \
     vendor/realme/realme_trinket/proprietary/vendor/etc/acdbdata/19631/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/19631/General_cal.acdb \
