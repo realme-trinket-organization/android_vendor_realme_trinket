@@ -1,3 +1,5 @@
+
+
 <!--
   Copyright (c) 2016-2019 Qualcomm Technologies, Inc.
   All Rights Reserved.
@@ -80,283 +82,220 @@ LensInfo : Information of the lens present in the module.
 *MinFocusDistance : Minimum distance in meters the lens could focus.
 
 *VARIABLES MARKED WITH ASTRICK (*) ARE MANDATORY.
-G_AUX for wide camera
-W_AUX for micro camera
+
+
 -->
+
 <CameraConfigurationRoot>
- <!--- back main camera -->
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>ginkgo_s5kgm1_sunny_i</SensorName>
-    <ActuatorName>ginkgo_s5kgm1_sunny_i_dw9800</ActuatorName>
-    <EepromName>ginkgo_s5kgm1_sunny_i</EepromName> 
-    <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_s5kgm1_sunny_india_i_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_s5kgm1_sunny_i_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.74</FocalLength>
-      <FNumber>1.79</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>67.2</HorizontalViewAngle>
-      <VerticalViewAngle>53.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>ginkgo_s5kgm1_ofilm_ii</SensorName>
-    <ActuatorName>ginkgo_s5kgm1_ofilm_ii_dw9800</ActuatorName>
-    <EepromName>ginkgo_s5kgm1_ofilm_ii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_s5kgm1_ofilm_india_ii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_s5kgm1_ofilm_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.74</FocalLength>
-      <FNumber>1.79</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>67.2</HorizontalViewAngle>
-      <VerticalViewAngle>53.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>ginkgo_imx582_qtech_iii</SensorName>
-    <ActuatorName>ginkgo_imx582_qtech_iii_dw9800</ActuatorName>
-    <EepromName>ginkgo_imx582_qtech_iii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_imx582_qtech_india_iii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_imx582_qtech_iii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.74</FocalLength>
-      <FNumber>1.79</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>67.2</HorizontalViewAngle>
-      <VerticalViewAngle>53.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-<!--- back aux camera -->
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ginkgo_ov02a10_sunny_i</SensorName>
-    <ChromatixName_india>ginkgo_ov02a10_sunny_india_i_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_ov02a10_sunny_i_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ginkgo_ov02a10_ofilm_ii</SensorName>
-    <ChromatixName_india>ginkgo_ov02a10_ofilm_india_ii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_ov02a10_ofilm_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ginkgo_gc02m1_ofilm_ii</SensorName>
-    <ChromatixName>ginkgo_gc02m1_ofilm_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ginkgo_gc02m1_ofilm_iii</SensorName>
-    <ChromatixName>ginkgo_gc02m1_ofilm_iii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ginkgo_gc02m1_sunny_ii</SensorName>
-    <ChromatixName>ginkgo_gc02m1_sunny_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ginkgo_gc2375h_ofilm_ii</SensorName>
-    <ChromatixName>ginkgo_gc2375h_ofilm_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
- <!--- front camera -->
  <CameraModuleConfig>
+    <!-- 48M BACK ONE -->
+    <CameraId>0</CameraId>
+    <SensorName>s5kgm1_xinli</SensorName>
+    <ActuatorName>fp5516we2</ActuatorName>
+    <EepromName>xinli_s5kgm1</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>s5kgm1_xinli_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.25</FocalLength>
+      <FNumber>1.79</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>79</HorizontalViewAngle>
+      <VerticalViewAngle>79</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 48M BACK TWO -->
+    <CameraId>0</CameraId>
+    <SensorName>s5kgm1_largan_2nd</SensorName>
+    <!--ModuleInfoPath>/proc/rear_eeprom_info</ModuleInfoPath-->
+    <ActuatorName>s5kgm1_fp5516we2_2nd</ActuatorName>
+    <EepromName>s5kgm1_qiutai_2nd</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>s5kgm1_largan_2nd_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+    <!--2019-07-5, Camera FOV Calibration:Adjust focallength -->
+      <FocalLength>4.71</FocalLength>
+      <FNumber>1.79</FNumber>
+      <TotalFocusDistance>5.0</TotalFocusDistance>
+      <HorizontalViewAngle>67.0</HorizontalViewAngle>
+      <VerticalViewAngle>53.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 12M BACK ONE -->
+    <CameraId>0</CameraId>
+    <SensorName>imx386_qtech</SensorName>
+    <ActuatorName>dw9718s</ActuatorName>
+    <EepromName>qtech_imx386</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>imx386_qtech_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.047</FocalLength>
+      <FNumber>1.8</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>74.94</HorizontalViewAngle>
+      <VerticalViewAngle>74.94</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 12M BACK TWO -->
+    <CameraId>0</CameraId>
+    <SensorName>ov12a10</SensorName>
+    <ActuatorName>ov12a10_dw9718s</ActuatorName>
+    <EepromName>qtech_ov12a10</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>ov12a10_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.05</FocalLength>
+      <FNumber>1.8</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>75</HorizontalViewAngle>
+      <VerticalViewAngle>75</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 2M MONO ONE -->
+    <CameraId>1</CameraId>
+    <SensorName>ov02a1b</SensorName>
+    <ChromatixName>ov02a1b_holitech_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.77</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>76.4</HorizontalViewAngle>
+      <VerticalViewAngle>60.7</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 2M MONO ONE -->
+    <CameraId>4</CameraId>
+    <SensorName>gc02m0_mono1</SensorName>
+    <ChromatixName>gc02m0_mono1_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x18</LaneMask>
+      <LaneAssign>0x03</LaneAssign>
+      <ComboMode>1</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.77</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>2.48</TotalFocusDistance>
+      <HorizontalViewAngle>76.4</HorizontalViewAngle>
+      <VerticalViewAngle>60.7</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 8M FRONT ONE -->
     <CameraId>2</CameraId>
-    <SensorName>ginkgo_ov13855_sunny_ii</SensorName>
-    <EepromName>ginkgo_ov13855_sunny_ii</EepromName>
-    <ChromatixName_india>ginkgo_ov13855_sunny_india_ii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_ov13855_sunny_ii_chromatix</ChromatixName>
+    <SensorName>s5k4h7</SensorName>
+    <EepromName>hlt_s5k4h7</EepromName>
+    <ChromatixName>s5k4h7_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
+      <LaneMask>0x1f</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.51</FocalLength>
+      <FocalLength>2.75</FocalLength>
       <FNumber>2.0</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>98.0</HorizontalViewAngle>
-      <VerticalViewAngle>80.0</VerticalViewAngle>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>66.0</HorizontalViewAngle>
+      <VerticalViewAngle>52.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
- <CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 13M FRONT ONE -->
     <CameraId>2</CameraId>
-    <SensorName>ginkgo_ov13855_ofilm_i</SensorName>
-    <EepromName>ginkgo_ov13855_ofilm_i</EepromName>
-    <ChromatixName_india>ginkgo_ov13855_ofilm_india_i_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_ov13855_ofilm_i_chromatix</ChromatixName>
+    <SensorName>s5k3l6_ofilm</SensorName>
+    <EepromName>ofilm_s5k3l6</EepromName>
+    <ChromatixName>s5k3l6_ofilm_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
+      <LaneMask>0x1f</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.51</FocalLength>
+      <FocalLength>3.419</FocalLength>
       <FNumber>2.0</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>98.0</HorizontalViewAngle>
-      <VerticalViewAngle>80.0</VerticalViewAngle>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>79.0</HorizontalViewAngle>
+      <VerticalViewAngle>79.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
- <!--- back 8M camera -->
- <CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 8M UW ONE -->
     <CameraId>3</CameraId>
-    <SensorName>ginkgo_ov8856_sunny_i</SensorName>
-    <EepromName>ginkgo_ov8856_sunny_i</EepromName>
+    <SensorName>hi846_sunny</SensorName>
+    <EepromName>sunny_hi846</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_ov8856_sunny_india_i_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_ov8856_sunny_i_chromatix</ChromatixName>
+    <ChromatixName>hi846_sunny_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>G_AUX</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
@@ -366,22 +305,22 @@ W_AUX for micro camera
     </CSIInfo>
     <LensInfo>
       <FocalLength>1.66</FocalLength>
-      <FNumber>2.2</FNumber>
+      <FNumber>2.25</FNumber>
       <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>98.0</HorizontalViewAngle>
-      <VerticalViewAngle>80.0</VerticalViewAngle>
+      <HorizontalViewAngle>119.0</HorizontalViewAngle>
+      <VerticalViewAngle>119.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
- <CameraModuleConfig>
+  <CameraModuleConfig>
+    <!-- 8M UW TWO -->
     <CameraId>3</CameraId>
-    <SensorName>ginkgo_ov8856_ofilm_ii</SensorName>
-    <EepromName>ginkgo_ov8856_ofilm_ii</EepromName>
+    <SensorName>ov8856_shinetech</SensorName>
+    <EepromName>shinetech_ov8856</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_ov8856_ofilm_india_ii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_ov8856_ofilm_ii_chromatix</ChromatixName>
+    <ChromatixName>ov8856_shinetech_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>G_AUX</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
@@ -390,116 +329,62 @@ W_AUX for micro camera
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.66</FocalLength>
-      <FNumber>2.2</FNumber>
+      <FocalLength>1.64</FocalLength>
+      <FNumber>2.25</FNumber>
       <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>98.0</HorizontalViewAngle>
-      <VerticalViewAngle>80.0</VerticalViewAngle>
+      <HorizontalViewAngle>97.7</HorizontalViewAngle>
+      <VerticalViewAngle>79.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
-  </CameraModuleConfig>
- <CameraModuleConfig>
-    <CameraId>3</CameraId>
-    <SensorName>ginkgo_s5k4h7_ofilm_iii</SensorName>
-    <EepromName>ginkgo_s5k4h7_ofilm_iii</EepromName>
+  </CameraModuleConfig>  
+  <CameraModuleConfig>
+    <!-- 2M MARCO ONE -->
+    <CameraId>4</CameraId>
+    <SensorName>gc2375h</SensorName>
+    <EepromName>hlt_gc2375h</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_s5k4h7_ofilm_india_iii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_s5k4h7_ofilm_iii_chromatix</ChromatixName>
+    <ChromatixName>gc2375h_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>G_AUX</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x18</LaneMask>
+      <LaneAssign>0x03</LaneAssign>
+      <ComboMode>1</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.66</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>98.0</HorizontalViewAngle>
-      <VerticalViewAngle>80.0</VerticalViewAngle>
+      <FocalLength>1.77</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>76.4</HorizontalViewAngle>
+      <VerticalViewAngle>60.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-<!--- back macro camera -->
   <CameraModuleConfig>
+    <!-- 2M MARCO TWO -->
     <CameraId>4</CameraId>
-    <SensorName>ginkgo_ov02a10_af_sunny_i</SensorName>
-    <ActuatorName>ginkgo_ov02a10_sunny_i_dw9714</ActuatorName>
-    <EepromName>ginkgo_ov02a10_af_sunny_i</EepromName>
+    <SensorName>gc2385</SensorName>
+    <EepromName>hlt_gc2385</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_ov02a10_af_sunny_india_i_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_ov02a10_af_sunny_i_chromatix</ChromatixName>
+    <ChromatixName>gc2385_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>W_AUX</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
-       <CSIDCore>1</CSIDCore>
+      <CSIDCore>0</CSIDCore>
       <LaneMask>0x18</LaneMask>
-      <LaneAssign>0x3</LaneAssign>
-       <ComboMode>1</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.02</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>4</CameraId>
-    <SensorName>ginkgo_gc2375h_af_ofilm_ii</SensorName>
-    <ActuatorName>ginkgo_gc2375h_ofilm_ii_dw9714</ActuatorName>
-    <EepromName>ginkgo_gc2375h_af_ofilm_ii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_gc2375h_af_ofilm_india_ii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_gc2375h_af_ofilm_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>W_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x18</LaneMask>
-      <LaneAssign>0x3</LaneAssign>
-       <ComboMode>1</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.02</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>4</CameraId>
-    <SensorName>ginkgo_hi259_af_ofilm_iii</SensorName>
-    <ActuatorName>ginkgo_hi259_ofilm_iii_dw9714</ActuatorName>
-    <EepromName>ginkgo_hi259_af_ofilm_iii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName_india>ginkgo_hi259_af_ofilm_india_iii_chromatix</ChromatixName_india>
-    <ChromatixName>ginkgo_hi259_af_ofilm_iii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>W_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x18</LaneMask>
-      <LaneAssign>0x3</LaneAssign>
-       <ComboMode>1</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.94</FocalLength>
-       <FNumber>2.4</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>71.0</HorizontalViewAngle>
-       <VerticalViewAngle>56.0</VerticalViewAngle>
-       <MinFocusDistance>0.02</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
+      <LaneAssign>0x03</LaneAssign>
+      <ComboMode>1</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.77</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>76.4</HorizontalViewAngle>
+      <VerticalViewAngle>60.7</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
 </CameraConfigurationRoot>
