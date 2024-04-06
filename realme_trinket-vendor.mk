@@ -367,9 +367,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/realme/realme_trinket/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/realme/realme_trinket/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_ft8719_video_mode_dsi_huaxing_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ft8719_video_mode_dsi_huaxing_panel.xml \
-    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_nt36672a_video_mode_dsi_shenchao_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672a_video_mode_dsi_shenchao_panel.xml \
-    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_nt36672a_video_mode_dsi_tianma_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672a_video_mode_dsi_tianma_panel.xml \
+    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_ili9881h_hdp_video_innolux_inx_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881h_hdp_video_innolux_inx_panel.xml \
+    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_gg3_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_gg3_panel.xml \
+    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml \
+    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_gg3_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_gg3_panel.xml \
+    vendor/realme/realme_trinket/proprietary/vendor/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml \
     vendor/realme/realme_trinket/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/realme/realme_trinket/proprietary/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
     vendor/realme/realme_trinket/proprietary/vendor/etc/sensors/config/bma2x2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bma2x2_0.json \
