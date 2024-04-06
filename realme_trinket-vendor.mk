@@ -19,24 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b00 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b01 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b02 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b03 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b04 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b05 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b06 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b07 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/fpctzappfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.mdt \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/realme/realme_trinket/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/realme/realme_trinket/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/realme/realme_trinket/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
@@ -448,7 +430,24 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/focaltech_ts_fw_huaxing.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_huaxing.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b00 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b01 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b02 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b03 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b04 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b05 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b06 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b07 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/egista.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.mdt \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b00 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b01 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b02 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b03 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b04 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b05 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b06 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b07 \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/f_1511.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.mdt \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -458,10 +457,24 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/novatek_ts_ebbg_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_ebbg_fw.bin \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/novatek_ts_ebbg_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_ebbg_mp.bin \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/novatek_ts_tianma_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_fw.bin \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/novatek_ts_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_mp.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/RA105A0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A0.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/RA105A004.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A004.ini \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/ilitek_fw_xl_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/ilitek_fw_xl_signed.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/nt_hlt_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/nt_hlt_fw_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw_mp.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/nt_hlt_fw_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw_signed.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/RA170A1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170A1.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/RA170A1.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170A1.ini \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/RA170X1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170X1.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/RA170X1.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170X1.ini \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/ilitek_fw_inx_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/ilitek_fw_inx_signed.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/ilitek_fw_xlgg3_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/ilitek_fw_xlgg3_signed.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/nt_hlt_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/nt_hlt_fw.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/nt_hlt_fw_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/nt_hlt_fw_mp.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/nt_hlt_fw_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/nt_hlt_fw_signed.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/nt_hltg_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/nt_hltg_fw.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/nt_hltg_fw_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/nt_hltg_fw_mp.bin \
+    vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19743/nt_hltg_fw_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/nt_hltg_fw_signed.bin \
     vendor/realme/realme_trinket/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/arcsoft_calibration_data.bin:$(TARGET_COPY_OUT_VENDOR)/lib/arcsoft_calibration_data.bin \
     vendor/realme/realme_trinket/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
