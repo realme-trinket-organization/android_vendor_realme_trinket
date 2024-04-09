@@ -1,15 +1,14 @@
 {
-  "config":
-  {
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
-    "soc_id": ["291", "246", "305", "321", "336", "339", "341", "360", "361", "393"]
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "IDP"],
+    "soc_id": ["291", "246", "305", "394"],
   },
-  "cm3526_0":{
-    "owner": "sns_cm3526",
-    ".uv":{
-      "owner": "sns_cm3526",
+  "af6133e_0":{
+    "owner": "sns_mmc5603x",
+    ".mag":{
+      "owner": "sns_mmc5603x",
       ".config":{
-        "owner": "sns_cm3526",
+        "owner": "sns_mmc5603x",
         "is_dri":{ "type": "int", "ver": "0",
           "data": "0"
         },

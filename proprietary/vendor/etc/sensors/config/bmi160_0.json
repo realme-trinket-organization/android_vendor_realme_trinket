@@ -1,8 +1,8 @@
 {
   "config":
   {
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "IDP"],
-    "soc_id": ["347","300","301","394"]
+    "hw_platform": ["IDP"],
+    "soc_id": ["394"]
   },
   "bmi160_0":{
     "owner": "sns_bmi160",

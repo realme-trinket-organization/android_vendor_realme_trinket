@@ -1,13 +1,12 @@
 {
-  "config":
-  {
+  "config":{
     "hw_platform": ["IDP"],
     "soc_id": ["394"]
   },
-  "ak0991x_0_platform":{
-    "owner": "sns_ak0991x",
+  "bmi160_0_platform":{
+    "owner": "sns_bmi160",
     ".config":{
-      "owner": "sns_ak0991x",
+      "owner": "sns_bmi160",
       "bus_type":{ "type": "int", "ver": "0",
         "data": "0"
       },
@@ -15,7 +14,7 @@
         "data": "7"
       },
       "slave_config":{ "type": "int", "ver": "0",
-        "data": "12"
+        "data": "104"
       },
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "400"
@@ -26,11 +25,26 @@
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
       },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "80"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
       "num_rail":{ "type": "int", "ver": "0",
         "data": "1"
       },
       "rail_on_state":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
@@ -40,53 +54,53 @@
       }
     },
     ".orient":{
-      "owner": "sns_ak0991x",
-      "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+      "owner": "sns_bmi160",
+      "x":{ "type": "str", "ver": "1",
+        "data": "+x"
       },
-      "y":{ "type": "str", "ver": "0",
+      "y":{ "type": "str", "ver": "1",
         "data": "-y"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "+z"
+        "data": "-z"
       }
     },
-    ".mag":{
-      "owner": "sns_ak0991x",
+    ".gyro":{
+      "owner": "sns_bmi160",
       ".fac_cal":{
-        "owner": "sns_ak0991x",
+        "owner": "sns_bmi160",
         ".corr_mat":{
-          "owner": "sns_ak0991x",
+          "owner": "sns_bmi160",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.062"
+            "data": "1.0"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "-0.054"
+            "data": "0.0"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.018"
+            "data": "0.0"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "-0.054"
+            "data": "0.0"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.950"
+            "data": "1.0"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "-0.016"
+            "data": "0.0"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.018"
+            "data": "0.0"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.016"
+            "data": "0.0"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "0.987"
+            "data": "1.0"
           }
         },
         ".bias":{
-          "owner": "sns_ak0991x",
+          "owner": "sns_bmi160",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           },
@@ -97,41 +111,44 @@
             "data": "0.0"
           }
         }
-      },
-      ".fac_cal_2":{
-        "owner": "sns_ak0991x",
+      }
+    },
+    ".accel":{
+      "owner": "sns_bmi160",
+      ".fac_cal":{
+        "owner": "sns_bmi160",
         ".corr_mat":{
-          "owner": "sns_ak0991x",
+          "owner": "sns_bmi160",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.00225830078125"
+            "data": "1.0"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.02764892578125"
+            "data": "0.0"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "-0.02447509765625"
+            "data": "0.0"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.02764892578125"
+            "data": "0.0"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.93914794921875"
+            "data": "1.0"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "-0.02825927734375"
+            "data": "0.0"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "-0.02447509765625"
+            "data": "0.0"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.02825927734375"
+            "data": "0.0"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.0654296875"
+            "data": "1.0"
           }
         },
         ".bias":{
-          "owner": "sns_ak0991x",
+          "owner": "sns_bmi160",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           },
@@ -141,11 +158,45 @@
           "z":{ "type": "flt", "ver": "0",
             "data": "0.0"
           }
+        }
+      }
+    },
+    ".temp":{
+      "owner": "sns_bmi160",
+      ".fac_cal":
+      {
+        "owner": "sns_bmi160",
+        ".scale":{
+          "owner": "sns_bmi160",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "1.0"
+          }
+        },
+        ".bias":{
+          "owner": "sns_bmi160",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          }
+        }
+      }
+    },
+    ".md":{
+      "owner": "sns_bmi160",
+      ".config":{
+        "owner": "sns_bmi160",
+        "thresh":{ "type": "flt", "ver": "0",
+            "data": "0.6132"
+        },
+        "disable":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "win":{ "type": "flt", "ver": "0",
+          "data": "0.0"
         }
       }
     },
     ".placement":{
-      "owner": "sns_ak0991x",
+      "owner": "sns_bmi160",
       "0":{ "type": "flt", "ver": "0",
         "data": "0.0"
       },
