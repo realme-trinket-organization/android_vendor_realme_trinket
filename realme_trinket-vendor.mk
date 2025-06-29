@@ -541,6 +541,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib/hw/audio.primary.trinket-realme.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.trinket-realme.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/hw/camera.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.trinket.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/hw/sound_trigger.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.trinket.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so \
@@ -645,6 +646,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/lib/libarcvs.dep.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcvs.dep.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/libarcvs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcvs.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioEngineerTest.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
@@ -3060,6 +3065,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib64/hw/audio.primary.trinket-realme.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.trinket-realme.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/hw/libets_teeclient_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libets_teeclient_v2.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so \
@@ -3133,6 +3139,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_smart_denoise.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioEngineerTest.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
+    vendor/realme/realme_trinket/proprietary/vendor/lib64/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioconfigstore.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/realme/realme_trinket/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
