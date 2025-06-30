@@ -3467,7 +3467,6 @@ PRODUCT_PACKAGES += \
     libMpeg4SwEncoder \
     libthermalclient \
     WfdService \
-    SoterService \
     CACertService \
     CneApp \
     IWlanService \
