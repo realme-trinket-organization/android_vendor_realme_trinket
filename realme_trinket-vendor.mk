@@ -520,8 +520,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
-    vendor/realme/realme_trinket/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/RA105A0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A0.bin \
     vendor/realme/realme_trinket/proprietary/vendor/firmware/tp/19631/RA105A004.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A004.ini \
