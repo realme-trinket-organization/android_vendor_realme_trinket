@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2020 Qualcomm Technologies, Inc.
+# Copyright (c) 2021 Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
@@ -22,7 +22,11 @@ on property:vendor.qti.qdma.oper.mode=3
     write /data/misc/qdma/conf/qdma.conf "OperationMode:3"
     chown system system /data/misc/qdma/conf/qdma.conf
 
-service qccsyshalservice /system/system_ext/bin/qccsyshalservice
+on property:vendor.qti.qdma.oper.mode=4
+    write /data/misc/qdma/conf/qdma.conf "OperationMode:4"
+    chown system system /data/misc/qdma/conf/qdma.conf
+
+service qccsyshal@1.1-service /system/system_ext/bin/qccsyshal@1.1-service
     class hal
     user system
     group system inet
